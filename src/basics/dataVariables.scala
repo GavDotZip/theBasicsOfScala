@@ -15,7 +15,10 @@ object dataVariables {
     // Will interpret a Boolean
     var c =true
 
-    // Will interpret a Float
+    // Will interpret a Double
     var d = 12.3
+
+    // Will interpret a Float
+    var e = 12.3f
   }
 }
