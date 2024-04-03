@@ -4,4 +4,19 @@ Statically typed, runs on JVM - like Java
 Scala blends object-oriented and functional programming in a statically typed language.
 -> Uses type interfacing
 
-Java can be used in Scala, and Scala can be used in Java.
+Java can be used in Scala, and Scala can be used in Java. It is practical.
+
+Mixed Scala/Java projects - use existing Java libraries and tools (Maven, JUnit etc.)
+
+SBT (Scala Build Tool) is an open source build tool for Scala and Java projects, similar to Java's Maven and Ant.
+- SBT is a modern build tool. While written in Scala and provides many Scala conveniences, it is a general
+  purpose build tool
+- SBT is the de facto build tool in Scala
+
+Why SBT?
+- Native support for compiling Scala code
+- Uses Apache Ivy for dependency management
+- Only update-on-request model
+- Full Scala language support for creating tasks
+- Support for mixed Java/Scala projects
+- Launch REPL (Read-Eval-Print Loop)
