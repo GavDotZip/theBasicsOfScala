@@ -11,5 +11,11 @@ object dataVariables {
 
     var b : Int = 12
     print(a+b+2)
+
+    // Will interpret a Boolean
+    var c =true
+
+    // Will interpret a Float
+    var d = 12.3
   }
 }
