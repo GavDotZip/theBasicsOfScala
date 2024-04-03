@@ -29,5 +29,8 @@ object dataVariables {
     val f = 500
     println(f * 30)
 
+    lazy val g = 500
+    println(g * 2) // Value of variable only initialised when used
+
   }
 }
