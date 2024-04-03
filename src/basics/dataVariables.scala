@@ -10,7 +10,7 @@ object dataVariables {
     println(a+30)
 
     var b : Int = 12
-    print(a+b+2)
+    println(a+b+2)
 
     // Will interpret a Boolean
     var c =true
@@ -20,5 +20,9 @@ object dataVariables {
 
     // Will interpret a Float
     var e = 12.3f
+
+    // Declare multiple values
+    var x = {var y : Int = 200 ; var z : Int = 300; y+z } // y+z is the result and is assigned to x
+    print(x)
   }
 }
