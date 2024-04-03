@@ -22,7 +22,12 @@ object dataVariables {
     var e = 12.3f
 
     // Declare multiple values
-    var x = {var y : Int = 200 ; var z : Int = 300; y+z } // y+z is the result and is assigned to x
-    print(x)
+    val x = {val y : Int = 200 ; val z : Int = 300; y+z } // y+z is the result and is assigned to x
+    println(x)
+
+    // Lazy Loading
+    val f = 500
+    println(f * 30)
+
   }
 }
