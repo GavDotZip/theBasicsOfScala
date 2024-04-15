@@ -5,6 +5,8 @@ object helloWorld {
     // String Interpolation
     val name = "Phoenix"
     val age = 31
-    println(name + "is " + age + " years old")
+    println(name + " is " + age + " years old")
+    // Can alsa do the following...
+    println(s"$name is $age years old")
   }
 }
