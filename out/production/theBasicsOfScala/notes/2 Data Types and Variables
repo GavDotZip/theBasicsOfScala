@@ -1,15 +1,11 @@
-Boolean
-Byte
-Short
-Char
-Int
-Long
-Float
-Double 
-String
+Boolean     True or False
+Byte        8 Bit Signed Value
+Short       16 Bit Signed Value
+Char        16 Bit Unsigned Unicode Character
+Int         32 Bit Signed Value
+Long        64 Bit Signed Value
+Float       32 Bit IEEE 754 Single-Precision Float
+Double      64 Bit IEEE 754 Single-Precision Float
+String      A Sequence of Characters
 
-Unit
-Null
-Nothing
-Any The
-AnyRef 
+String Interpolation = Replace a defined variable in a given string with some value
