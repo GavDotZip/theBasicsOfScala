@@ -7,3 +7,5 @@ Long        64 Bit Signed Value
 Float       32 Bit IEEE 754 Single-Precision Float
 Double      64 Bit IEEE 754 Single-Precision Float
 String      A Sequence of Characters
+
+String Interpolation = Replace a defined variable in a given string with some value
