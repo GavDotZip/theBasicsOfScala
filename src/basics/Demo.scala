@@ -15,8 +15,11 @@ object Demo {
     println(res);
 
     // Can also do an If loop like this
-    val res2 = if(x == 20) "x == 20" else "x != 20"
+    val res2 = if(x == 20) "x == 20" else "x != 20";
     println(res2);
+    // Also...
+    println(if (x == 20) "x == 20" else "x != 20");
+
   }
 
   }
