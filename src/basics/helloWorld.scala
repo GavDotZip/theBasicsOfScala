@@ -10,5 +10,9 @@ object helloWorld {
     println(s"$name is $age years old") // S String Interpolation
     // Can also do the following for a type safe manner...
     println(f"$name%s is $age%d years old") // F String Interpolation
+    // %s = String, %d = Integer, %f = Float
+    // Can alsa do the following...
+    println(raw"Hello \nWorld") // Raw String Interpolation
+    println(s"Hello \nWorld") // S String Interpolation
   }
 }
