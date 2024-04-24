@@ -38,6 +38,10 @@ object loops {
     for (i <- lst; if i < 6) { // For-Loop automatically takes as mutable variable
       println("i using lst " + i);
     }
+    val result = for {i <- lst; if i < 6} yield {
+      i*i
+    }
+    println("results = " + result)
 
 
   }
